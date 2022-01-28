@@ -1,0 +1,25 @@
+//- layout.pug
+
+doctype html
+html
+  head
+    title RAHSHAH WORKS
+    block scripts
+    block style
+    
+  body
+    
+    nav#navbar
+      ul 
+        div#logo
+            img(src="/static/Images/AS Logo.png", alt="", srcset="")
+            | RW 
+        li #[a(href = "/") Home]
+        li #[a(href = "/") Services]
+        li #[a(href = "/") About Us ]
+        li #[a(href = "/contact") Contact Us]
+    block content
+
+  footer#footer 
+    | COPYRIGHT © 2022 RAHSHAH WORKS.
+    | ALL RIGHTS RESERVED. 

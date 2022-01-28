@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:wght@700&family=EB+Garamond&family=The+Nautigal:wght@700&family=Vidaloka&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    color: rgb(167, 166, 166);
+    font-size: 9px;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+#logo img{
+    height: 28px;
+    margin-left: -470px;
+}
+
+
+#navbar{
+    background: #000000;
+    padding: 17px 14px;
+    opacity: 0.9;
+
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: rgb(167, 166, 166);
+    text-decoration: none;
+    padding: 3px 72px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    align-items: center;
+}
+
+#navbar li a:hover{
+    color: rgb(255, 255, 255);
+    /* font-weight: bold; */
+    background-color: black;
+}
+
+#introSection{
+    color: floralwhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    background: center/cover no-repeat url("../static/Dance\ BG\ TryOut.jpg");
+    opacity: 0.8;
+    height: 900px;
+    background-color: lightblue;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#introSection div.tagline{
+    font-size: 42px;
+    padding: 15px;
+    font-family: 'The Nautigal', cursive;
+}
+
+#OurExpertise{
+    height: 130px;
+    /* background-color: floralwhite; */
+    margin: auto;
+    padding: 0px 25px;
+    display: block;
+}
+
+#OurExpertise h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 40px;
+    font-family: 'Vidaloka', serif;
+}
+
+.card{
+    display: inline-block;
+    text-align: center;
+    /* border: 2px solid black; */
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* box-shadow: inset -1px -1px 2px 0 rgb(131, 131, 131); */
+    box-shadow: 0 4px 8px 0px rgb(0 0 0 / 20%);
+    width: 445px;
+    margin: 30px 9px;
+    height: 256px;
+    font-family: 'EB Garamond', serif;
+}
+
+.card:hover{
+    cursor: pointer;
+    backface-visibility: hidden;
+    transform: scale(1.09, 1.09);
+    box-shadow: 0px 30px 18px -8px rgb(0 0 0 / 20%);
+}
+
+.card-box{
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 200px;
+    padding: 10px 12px;
+    animation: Rahshah 5s ease-out infinite backwards ;
+}
+
+.card-img img{
+    height: inherit;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card h3{
+    text-align: center;
+}
+
+#LearningSection{
+    height: 500px;
+    margin: 12px;
+    max-width: 1852px;
+    margin: 5px auto;
+    
+    
+} 
+#LearningSection h2{
+    margin-top: 50px;
+    margin-bottom: 45px;
+    font-family: poppins;
+    color: #111;
+    font-size: 3vw;
+    line-height: 3.2vw;
+    font-weight: 600;
+    text-transform: none;
+}
+
+#LearningSection h3{
+    position: relative;
+    z-index: 50;
+    display: inline-block;
+    margin-bottom: 1.5vw;
+    padding: 0.8vw 0.75vw 0.75vw;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #fff;
+    font-family: Poppins,sans-serif;
+    color: #111;
+    font-size: 1.35vw;
+    line-height: .75vw;
+    font-weight: 700;
+    letter-spacing: .1vw;
+}
+
+#LearningSection p{
+    font-family: Poppins,sans-serif;
+    color: #111;
+    font-size: 1.8vw;
+    line-height: 2.2vw;
+    font-weight: 600;
+}
+
+.level1{
+    background-color: #fcef2e;
+    display: inline-block;
+    text-align: center;
+    /* border: 2px solid black; */
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* box-shadow: inset -1px -1px 2px 0 rgb(131, 131, 131); */
+    box-shadow: 0 4px 8px 0px rgb(0 0 0 / 20%);
+    width: 445px;
+    margin: 30px 9px;
+    height: 256px;
+    font-family: 'EB Garamond', serif;
+    position: relative;
+    overflow: hidden;
+    width: 24%;
+    height: 15.5vw;
+    padding: 1.5vw
+    
+}
+.level2{
+    background-color: #dcf063;
+    display: inline-block;
+    text-align: center;
+    /* border: 2px solid black; */
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* box-shadow: inset -1px -1px 2px 0 rgb(131, 131, 131); */
+    box-shadow: 0 4px 8px 0px rgb(0 0 0 / 20%);
+    width: 445px;
+    margin: 30px 9px;
+    height: 256px;
+    font-family: 'EB Garamond', serif;
+    position: relative;
+    overflow: hidden;
+    width: 24%;
+    height: 15.5vw;
+    padding: 1.5vw
+    
+}
+.level3{
+    background-color: #b6f18a;
+    display: inline-block;
+    text-align: center;
+    /* border: 2px solid black; */
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* box-shadow: inset -1px -1px 2px 0 rgb(131, 131, 131); */
+    box-shadow: 0 4px 8px 0px rgb(0 0 0 / 20%);
+    width: 445px;
+    margin: 30px 9px;
+    height: 256px;
+    font-family: 'EB Garamond', serif;
+    position: relative;
+    overflow: hidden;
+    width: 24%;
+    height: 15.5vw;
+    padding: 1.5vw
+    
+}
+.level4{
+    background-color: #81f1ae;
+    display: inline-block;
+    text-align: center;
+    /* border: 2px solid black; */
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* box-shadow: inset -1px -1px 2px 0 rgb(131, 131, 131); */
+    box-shadow: 0 4px 8px 0px rgb(0 0 0 / 20%);
+    width: 445px;
+    margin: 30px 9px;
+    height: 256px;
+    font-family: 'EB Garamond', serif;
+    position: relative;
+    overflow: hidden;
+    width: 24%;
+    height: 15.5vw;
+    padding: 1.5vw
+    
+}
+/* .level1, .level2, .level3, .level4:hover{
+    backface-visibility: hidden;
+    transform: scale(1, 1);
+} */
+
+
+#SponsersSection{
+    height: 400px;
+    /* background-color: black; */
+}
+
+#SponsersSection h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 42px;
+    font-family: 'Vidaloka', serif;
+}
+
+#sponsers{
+    height: 139px;
+    max-width: 1500px;
+    margin: 5px auto;
+}
+
+.SponserLogo{
+    height: 80%;
+    margin: 82px;
+}
+
+.SponserLogo:hover{
+    /* cursor: pointer; */
+    backface-visibility: hidden;
+    transform: scale(1.13, 1.13);
+    /* box-shadow: 0px 30px 18px -8px rgb(0 0 0 / 20%); */
+}
+
+#footer{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:wght@700&family=EB+Garamond&family=The+Nautigal:wght@700&family=Vidaloka&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    color: rgb(167, 166, 166);
+    font-size: 9px;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+#logo img{
+    height: 28px;
+    margin-left: -470px;
+}
+
+
+#navbar{
+    background: #000000;
+    padding: 17px 14px;
+    opacity: 0.9;
+
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: rgb(167, 166, 166);
+    text-decoration: none;
+    padding: 3px 72px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    align-items: center;
+}
+
+#navbar li a:hover{
+    color: rgb(255, 255, 255);
+    /* font-weight: bold; */
+    background-color: black;
+}
+
+.Form{
+    height: 683px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.Input{
+    margin: 20px;
+    align-items: center;
+    width: 40%;
+    border: 0px;
+    box-shadow: 0 4px 8px 0px rgb(0 0 0 / 20%);
+    font-size: 18px;
+    outline: none;
+}
+
+.Input:hover{
+    cursor: pointer;
+    backface-visibility: hidden;
+    transform: scale(1.04, 1.04);
+    border: 0px;
+    box-shadow: 0px 30px 18px -8px rgb(0 0 0 / 20%);
+}
+
+h2{
+    text-align: center;
+    margin-top: 55px;
+    padding: auto;
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+button{
+    background-color: linear-gradient(135deg, #F3F4F7, #d7dde9);
+    box-shadow: 5px 5px 20px 2px #D1D9E9, -7px -7px 20px 5px white;
+    border: none;
+    border-radius: 17px;
+    color: #909c9e;
+    padding: 15px 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: inset 2px 2px 10px 0px #d1d9e9;
+    background-color: #e3e6ec;
+    color: #b1b8b9;
+    cursor: pointer;
+}
+
+#footer{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

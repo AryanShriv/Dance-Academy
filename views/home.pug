@@ -1,0 +1,81 @@
+extends layout.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+  style
+    include ../static/da.css
+
+block content
+    
+    section#introSection
+      div.Heading Welcome To RAHSHAH's World
+      div.tagline Come Fall In Love With Dance
+
+    section#OurExpertise 
+      h2 Our Expertise
+    div.card
+      h3 Hip Hop
+      div.card-box
+        div.card-img
+          img(src="/static/Images/HIP HOP.jpg", alt="", srcset="")
+    div.card
+      h3 Contemporary 
+      div.card-box
+        div.card-img
+          img(src="/static/Images/Contemporary.jpg", alt="", srcset="")
+    div.card
+      h3 Ballet
+      div.card-box
+        div.card-img
+          img(src="/static/Images/Ballet.jpg", alt="", srcset="")
+    div.card
+      h3 Salsa
+      div.card-box
+        div.card-img
+          img(src="/static/Images/Salsa.jpg", alt="", srcset="")
+    div.card
+      h3 Lite Feet
+      div.card-box
+        div.card-img
+          img(src="/static/Images/Lite Feet.jpg", alt="", srcset="")
+    div.card
+      h3 Jazz
+      div.card-box
+        div.card-img
+          img(src="/static/Images/Jazz.jpg", alt="", srcset="")
+    div.card
+      h3 Zumba
+      div.card-box
+        div.card-img
+          img(src="/static/Images/Zumba.jpg", alt="", srcset="")
+    div.card
+      h3 Heels
+      div.card-box
+        div.card-img
+          img(src="/static/Images/Heels Dance.jpg", alt="", srcset="")
+
+    section#LearningSection
+      h2 Step-by-Step Learning For All Levels
+      div.level1
+        h3 Brand New    
+        p Got two left feet? Start with our 10-day intro program.
+      div.level2
+        h3 Beginner 
+        p Got the basics down? Level up with new moves and routines.
+      div.level3
+        h3 Intermediate
+        p Feel pretty confident? Learn more challenging skills and pieces.
+      div.level4
+        h3 Advanced
+        p Already killin' it? Train with the top choreographers in the game.
+
+
+    section#SponsersSection
+      h2 Our Sponsers 
+        div#sponsers
+          img(src="/static/Images/Apple Logo.png", alt="Our Sponsers", class = "SponserLogo")
+          img(src="/static/Images/DELL Logo.png", alt="Our Sponsers", class = "SponserLogo")
+          img(src="/static/Images/MB.png", alt="Our Sponsers", class = "SponserLogo")
+          img(src="/static/Images/Microsoft Logo.png", alt="Our Sponsers", class = "SponserLogo")

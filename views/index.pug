@@ -1,0 +1,80 @@
+//- index.pug
+doctype html
+html
+  head
+    title='RAHSHAH WORKS'
+    style
+      include ../static/da.css
+  body
+    nav#navbar
+      ul 
+        div#logo
+            img(src="/static/Images/AS Logo.png", alt="", srcset="")
+            | RW 
+        li #[a(href = "/") Home]
+        li #[a(href = "/") Services]
+        li #[a(href = "/") About Us ]
+        li #[a(href = "/") Contact Us]
+
+  section#introSection
+    div.Heading Welcome To RAHSHAH's World
+    div.tagline Come Fall In Love With Dance
+
+  section#OurExpertise 
+    h2 Our Expertise
+    div.card
+      h3 Hip Hop
+      div.card-box
+        div.card-img
+          img(src="/static/Images/HIP HOP.jpg", alt="", srcset="")
+    div.card
+      h3 Contemporary 
+      div.card-box
+        div.card-img
+          img(src="/static/Images/Contemporary.jpg", alt="", srcset="")
+    div.card
+      h3 Ballet
+      div.card-box
+        div.card-img
+          img(src="/static/Images/Ballet.jpg", alt="", srcset="")
+    div.card
+      h3 Salsa
+      div.card-box
+        div.card-img
+          img(src="/static/Images/Salsa.jpg", alt="", srcset="")
+    div.card
+      h3 Lite Feet
+      div.card-box
+        div.card-img
+          img(src="/static/Images/Lite Feet.jpg", alt="", srcset="")
+    div.card
+      h3 Jazz
+      div.card-box
+        div.card-img
+          img(src="/static/Images/Jazz.jpg", alt="", srcset="")
+    div.card
+      h3 Zumba
+      div.card-box
+        div.card-img
+          img(src="/static/Images/Zumba.jpg", alt="", srcset="")
+    div.card
+      h3 Heels
+      div.card-box
+        div.card-img
+          img(src="/static/Images/Heels Dance.jpg", alt="", srcset="")
+
+  section#SponsersSection
+    h2 Our Sponsers 
+    div#sponsers
+      img(src="/static/Images/Apple Logo.png", alt="Our Sponsers", class = "SponserLogo")
+      img(src="/static/Images/DELL Logo.png", alt="Our Sponsers", class = "SponserLogo")
+      img(src="/static/Images/MB.png", alt="Our Sponsers", class = "SponserLogo")
+      img(src="/static/Images/Microsoft Logo.png", alt="Our Sponsers", class = "SponserLogo")
+
+  footer#footer 
+    | COPYRIGHT © 2022 RAHSHAH WORKS.
+    | ALL RIGHTS RESERVED. 
+
+
+    script
+      include ../static/index.js

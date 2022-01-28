@@ -1,0 +1,21 @@
+extends layout.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+  style
+    include ../static/contact page.css
+
+block content 
+  h2 Contact Form 
+  form(action="/contact", method = "post", class = "Form")
+    input(type="text", class = "Input", name = "name", placeholder = "Your Good Name")
+    input(type="phone", class= "Input", name="phone", placeholder="Your Contact Number")
+    input(type="email" class= "Input" name="email" placeholder="Your Email Address")
+    input(type="text" class= "Input" name="address" placeholder="Your Residing Place")
+    input(type="text" class= "Input" name="concern" placeholder="Your Concern/Query, Here")
+
+    button 
+      | Submit
+    
